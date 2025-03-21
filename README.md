@@ -1,6 +1,6 @@
 # PerMo (PersonaMotion) Dataset
 
-PerMo is a dataset of human motion capturing unique personas from multiple actors, originally created as a benchmark for PersonaBooth:
+PerMo is a dataset of human motion capturing unique personas from multiple actors, originally created as a benchmark for [[PersonaBooth]](https://boeun-kim.github.io/page-PersonaBooth/):
 
 > **PersonaBooth: Personalized Text-to-Motion Generation**<br>
 > Boeun Kim, Hea In Jeong, JungHoon Sung, Yihua Cheng, Jeongmin Lee, Ju Yong Chang, Sang-Il Choi, Younggeun Choi, Saim Shin, Jungho Kim, Hyung Jin Chang<br>
@@ -43,14 +43,6 @@ Marker data (C3D), Skeleton data (BVH), Mesh data (SMPL-H), Rendered video (REND
     <img src="./figures/data.png">
 </p>
 
-## Data preprocess
-
-1. Download the [Mesh file (SMPL-H.zip)](https://drive.google.com/file/d/1eJQpui51Kj2yFBy4_z3BiCQNKAgBByvN/view?usp=drive_link) from Google Drive and place it in the data folder.
-
-2. The following command will unzip the file and preprocess the data required to run the PersonaBooth code.
-    ```
-    python preprocess_data.py --data_dir [Data Directory]
-    ```
 
 ## Data Collection
 
@@ -61,6 +53,15 @@ The dataset is captured by five professional actors of diverse genders and body 
 </p>
 
 
+## Data preprocess for PersonaBooth
+
+1. Download the [Mesh file (SMPL-H.zip)](https://drive.google.com/file/d/1eJQpui51Kj2yFBy4_z3BiCQNKAgBByvN/view?usp=drive_link) from Google Drive and place it in the data folder.
+
+2. The following command will unzip the file and chanage the folder structures required to run the PersonaBooth code.
+    ```
+    python preprocess_data.py --data_dir [Data Directory]
+    ```
+    
 
 ## Citation
 
