@@ -1,6 +1,6 @@
 # PerMo (PersonaMotion) Dataset
 
-PerMo is a dataset of human motion capturing unique personas from multiple actors, originally created as a benchmark for [[PersonaBooth]](https://boeun-kim.github.io/page-PersonaBooth/):
+PerMo is a dataset of human motion capturing unique personas from multiple actors, originally created as a benchmark for [PersonaBooth](https://boeun-kim.github.io/page-PersonaBooth/):
 
 > **PersonaBooth: Personalized Text-to-Motion Generation**<br>
 > Boeun Kim, Hea In Jeong, JungHoon Sung, Yihua Cheng, Jeongmin Lee, Ju Yong Chang, Sang-Il Choi, Younggeun Choi, Saim Shin, Jungho Kim, Hyung Jin Chang<br>
